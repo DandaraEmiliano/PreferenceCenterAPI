@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "dandaraemiliano",
+    "password": "1234",
+    "database": "preference_center",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "dandaraemiliano",
+    "password": "1234",
+    "database": "preference_center_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "dandaraemiliano",
+    "password": "1234",
+    "database": "preference_center",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
