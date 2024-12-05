@@ -1,4 +1,4 @@
-# Preference Center API
+## Preference Center API
 
 ## Overview
 
@@ -20,42 +20,38 @@ This API allows managing user preferences for notifications (email and SMS). It 
 
 ## Installation
 
-### Prerequisites
-
 - Node.js installed
 - PostgreSQL database created (`preference_center`)
 
-### Steps
+## Clone the repository:
 
-1. Clone the repository:
-
-   ```bash
    git clone https://github.com/your-repo/preference-center-api.git
+
    cd preference-center-api
 
-   ```
-
-2. Install dependencies:
+## Install dependencies:
 
 npm install
 
-3. Configure database: Edit src/config/database.ts with your database credentials.
+## Configure database: 
 
-4. Run migrations:
+Edit src/config/database.ts with your database credentials.
+
+## Run migrations:
 
 npx sequelize-cli db:migrate
 
-5. Start the server:
+## Start the server:
 
 npm start
 
 ## Endpoints
 
 /api/users
-• GET: Retrieve all users and their current consent status.
-• POST: Create a new user.
-• DELETE: Delete a user by ID.
+- GET: Retrieve all users and their current consent status.
+- POST: Create a new user.
+- DELETE: Delete a user by ID.
 
 /api/events
-• POST: Create a consent change event for a user.
+- POST: Create a consent change event for a user.
 
